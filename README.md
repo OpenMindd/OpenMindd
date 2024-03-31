@@ -265,7 +265,7 @@ del ABET – EAC - Student Outcome 5.
 ### 4.4.2. Web Applications Wireflow Diagrams
 ### 4.4.2. Web Applications Mock-ups
 ### 4.4.3. Web Applications User Flow Diagrams
-##4.5. Web Applications Prototyping
+## 4.5. Web Applications Prototyping
 ## 4.6. Domain-Driven Software Architecture
 ### 4.6.1. Software Architecture Context Diagram
 ### 4.6.2. Software Architecture Container Diagrams
