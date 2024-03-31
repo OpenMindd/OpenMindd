@@ -50,3 +50,13 @@
     <strong>Abril, 2024</strong>
 </p>
 <br>
+
+# Registro de Versiones del Informe
+
+| Versión | Fecha | Autor | Descripción de modificación | 
+|:-------:|:-----:|:-----:|:----------------------------| 
+|TB1|XX/04/2024|  Todos los integrantes del equipo|X.|
+
+
+
+<br><br>
