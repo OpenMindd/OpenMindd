@@ -159,13 +159,6 @@
 <br><br>
 
 # Student Outcome
-
-Criterio: Trabaja efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo; crea un entorno colaborativo e inclusivo y establece metas, planifica tareas y cumple objetivos.
-
-En el siguiente cuadro se describe las acciones realizadas y enunciados de 
-conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro 
-del ABET – EAC - Student Outcome 5.
-
 <table>
   <tr>
     <td><b>Criterio específico</b></td>
@@ -173,44 +166,30 @@ del ABET – EAC - Student Outcome 5.
     <td><b>Conclusiones</b></td>
   </tr>
   <tr>
-    <td rowspan="2"><b>Participa en equipos multidisciplinarios con eficacia, eficiencia y objetividad, en el marco de un proyecto en soluciones de ingeniería de software.</b></td>
+    <td><b>Capacidad de comunicarse efectivamente con un rango de audiencias.</b></td>
     <td> TB1<br><br>
-         <b>XXXX</b><br>
-        - XXXX
+         <b>Avellanada Ramos, Carlos Edward</b><br>
+        - X.
         <br><br> 
-         <b>XXX</b><br>
-        - XXX
+         <b>Cueva Elera, Erick Armando</b><br>
+        - X.
         <br><br>
-        <b>XXX</b><br>
-        - XXX
+        <b>Barrionuevo Reto, Jean Franco Joel</b><br>
+        - X.
         <br><br> 
-        <b>XX</b>
-        - XXX
+        <b>Chavez Guerrero, Luis Sebastian</b>
+        - X.
+        <br><br>
+        <b>Zagaceta Bardales, Rodrigo Enrique</b>
+        - X.
         <br><br>
    </td>
     <td>TB1<br><br>
-    XX.</td>
+    X.</td>
   </tr>
-    <td rowspan="2"><b>Conoce al menos un sector empresarial o dominio de aplicación de soluciones de software.</b></td>
-    <td> TB1<br><br>
-         <b>XXX</b><br>
-        - XXX.
-        <br><br> 
-         <b>XX</b><br>
-        - XXX.
-        <br><br>
-        <b>XXX</b><br>
-        - XX.
-        <br><br> 
-        <b>XX</b>
-        - XX.
-        <br><br>
-   </td>
-    <td>TB1<br><br>
-    XX.</td>
-  </tr>
-  <tr>
 </table>
+
+<br><br>
 
 # Capitulo I: Introducción 
 ## 1.1. Startup Profile
