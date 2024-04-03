@@ -194,9 +194,171 @@
 # Capítulo I: Introducción 
 ## 1.1. Startup Profile
 ### 1.1.1. Descripción de la Startup
+
+Nuestra StartUp consiste en un sitio web dedicado al funcionamiento del servicio de instalación para postes de fibra óptica en Perú y gestión de proyectos de infraestructura de telecomunicaciones. El sitio web funcionará bajo un modelo de negocio por suscripción, dirigido principalmente a empresas de postes que deseen aumentar su visibilidad y captar clientes. Estas empresas se suscribiran para poder hacer uso de la plataforma y poder conseguir los trabajos y servicios. Por otro lado, los usuarios finales, que no incurriran en costos por suscripcion, estos tendran acceso ala informacion y servicios de la pagina.
+
 ### 1.1.2. Perfiles de integrantes del equipo
+
+<table align="center"  border="1" width="70%" style="text-align:center;">
+    <tr align="center">
+        <td rowspan="3">
+            <img src="https://media.discordapp.net/attachments/1145421916413366426/1145446949110173706/Steve.jpg?width=511&height=681" alt="Rodrigo Zagaceta" style="margin-bottom: 5px;" width="600"/>
+        </td>
+        <td align="left">
+            <b>Nombre y Apellido:</b>
+            <br>            
+            Rodrigo Enrique Zagaceta Bardales
+        </td>
+    </tr>
+    <tr>
+        <td align="left">
+        <b>Carrera:</b>
+        <br>
+        Ing. de Software
+        </td>
+    </tr>
+    <tr>
+        <td align="left">
+        <b>Acerca de:</b>
+        <br>
+        Soy Rodrigo Zagaceta, estudiante de quinto ciclo de la carrera de Ingeniería de Software. Poseo conocimientos intermedios en programación C + +. Entre mis habilidades poseo la empatía y la puntualidad.
+        </td>
+    </tr>
+    <tr align="center">
+        <td rowspan="3">
+            <img src="https://media.discordapp.net/attachments/1145583761182965852/1145600038412750848/0540202124061.jpg?width=454&height=681" alt="Erick Cueva" style="margin-bottom: 5px;" width="600"/>
+        </td>
+        <td align="left">
+            <b>Nombre y Apellido:</b>
+            <br>            
+            Erick Armando Cueva Elera
+        </td>
+    </tr>
+    <tr>
+        <td align="left">
+        <b>Carrera:</b>
+        <br>
+        Ing. de Software
+        </td>
+    </tr>
+    <tr>
+        <td align="left">
+        <b>Acerca de:</b>
+        <br>
+        Soy Erick Cueva, estudiante de la carrera de Ingenieria de Software, cuento con experiencia en el lenguaje C++, además de un enfoque colaborativo y puntual que ayudará al desarrollo de este proyecto en conjunto.
+        </td>
+    </tr>
+    <tr align="center">
+        <td rowspan="3">
+            <img src="https://media.discordapp.net/attachments/1145421916413366426/1145446948808163449/Jenn-Foto.jpg" alt="Carlos Avellaneda" style="margin-bottom: 5px;" width="600"/>
+        </td>
+        <td align="left">
+            <b>Nombre y Apellido:</b>
+            <br>            
+            Carlos Edward Avellaneda Ramos
+        </td>
+    </tr>
+    <tr>
+        <td align="left">
+        <b>Carrera:</b>
+        <br>
+        Ing. de Software
+        </td>
+    </tr>
+    <tr>
+        <td align="left">
+        <b>Acerca de:</b>
+        <br>
+        Soy Carlos
+        </td>
+    </tr>
+    <tr align="center">
+        <td rowspan="3">
+            <img src="https://i.imgur.com/SQ3MPq7.png" alt="Luis Chavez"  style="margin-bottom: 5px;" width="600"/>
+        </td>
+        <td align="left">
+            <b>Nombre y Apellido:</b>
+            <br>            
+            Luis Sebastian Chavez Guerrero
+        </td>
+    </tr>
+    <tr>
+        <td align="left">
+        <b>Carrera:</b>
+        <br>
+        Ing. de Software
+        </td>
+    </tr>
+    <tr>
+        <td align="left">
+        <b>Acerca de:</b>
+        <br>
+        Soy Luis
+        </td>
+    </tr>
+     <tr align="center">
+        <td rowspan="3">
+            <img src="https://i.imgur.com/SQ3MPq7.png" alt="Jean Barrionuevo"  style="margin-bottom: 5px;" width="600"/>
+        </td>
+        <td align="left">
+            <b>Nombre y Apellido:</b>
+            <br>            
+            Jean Franco Joel Barrionuevo Reto
+        </td>
+    </tr>
+    <tr>
+        <td align="left">
+        <b>Carrera:</b>
+        <br>
+        Ing. de Software
+        </td>
+    </tr>
+    <tr>
+        <td align="left">
+        <b>Acerca de:</b>
+        <br>
+        Soy Jean
+        </td>
+    </tr>
+</table>
+
 ## 1.2. Solution Profile
 ### 1.2.1. Antecedentes y Problemática 
+
+La expansión de fibra optica en el Perú es un fenómeno que año tras año va avanzando a una velocidad increible, y las empresas de telecomunicaciones y  las empresas que colocan postes son las mayores beneficiadas con este avance.
+
+Según un informe de Point Topic, en el último trimestre de 2022, Perú experimentó un crecimiento del 16.2% en conexión a internet fijo con fibra óptica.
+
+Nuestra StartUp se centra en facilitar la visibilidad de los servicios de diferentes empresas de postes, ya que no existe ninguna pagina web ni ninguna plataforma digital que ayude a estas empresas.
+
+-   **What?**
+    
+El problema principal es la poca visibilidad que tienen las empresas de postes para ofrecer sus servicios a las distintas empresas de telecomunicaciones.
+
+-   **When?**
+    
+    El problema surge cuando las empresas de postes no cuentan con una plataforma sencilla y eficaz para ofrecer sus servicios.
+    La falta de visibilidad de estas puede causar que se estanque el desarrollo del incremento de la fibra en el Perú.
+
+-   **Where?**
+
+    El problema reside a nivel nacional, en todas las zonas en donde se desea implementar la fibra y las empresas de telecomunicaciones tienen que contactar a las empresas de postes para la implememtación de estos.
+
+-   **Who?**
+
+El problema afecta a ambos sectores, a las empresas de telecomunicaciones, que, al no tener la facilidad de apreciar una variedad de opciones de empresas de postes, es posible que no sean capaces de elegir la mejor opcion para ellos. Y tambien afecta a las empresas de postes, que al no tener una visibilidad amplia en el mercado es posible que sus negocios se vean afectados, así como el desarrollo en sí de esta evolución.
+
+- **Why?**
+
+Uno de los principales motivos de este problema es la ausencia de una pagina web que permite la facil y eficaz interacción entre los 2 segmentos objetivos, en este caso, las empresas de telecomunicaciones y las empresas que colocan postes.
+
+-   **How?**
+
+    
+
+-   **How much?**
+
+ 
 ### 1.2.2. Lean UX Process
 #### 1.2.2.1. Lean UX Problem Statements
 #### 1.2.2.2. Lean UX Assumptions
