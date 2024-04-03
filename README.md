@@ -385,6 +385,1119 @@ Uno de los principales motivos de este problema es la ausencia de una pagina web
 # Capítulo III: Requirements Specification
 ## 3.1. To-Be Scenario Mapping
 ## 3.2. User Stories
+<table align="center" border="1" width="90%" style="text-align:center;">
+    <tr align="left">
+        <td colspan=2>
+            <b>Épica</b>
+        </td>
+        <td colspan=2>
+            Registro de Usuario
+        </td>
+    </tr>
+    <tr align="left">
+        <td>
+            <b>ID-HU</b>
+        </td>
+        <td>
+            01
+        </td>
+        <td>
+            <b>Owner</b>
+        </td>
+        <td>
+            XXXX
+        </td>
+    </tr>
+    <tr align="left">
+        <td colspan=2>
+            <b>Título HU</b>
+        </td>
+        <td colspan=2>
+            Registro de Usuario
+        </td>
+    </tr>
+    <tr align="left">
+        <td colspan=4>
+            <b>Descripción:</b></br>
+            <b>Como</b> usuario, <b>quiero</b> poder registrarme en la plataforma <b>para</b> acceder a sus servicios.
+        </td>
+    </tr>
+    <tr align="left">
+        <td colspan=4>
+            <b>Criterio de Aceptación:</b></br>
+            <b>Scenario 01:</b> Registro exitoso</br>
+            <b>Dado</b> que el usuario proporciona información válida en el formulario de registro </br>
+            <b>Cuando</b> envía el formulario </br>
+            <b>Entonces</b> el sistema crea una cuenta para el usuario y lo redirige a la página de inicio de sesión.
+            </br></br>
+            <b>Scenario 02:</b> Registro con correo duplicado</br>
+            <b>Dado</b> que el usuario intenta registrarse con un correo electrónico que ya está en uso </br>
+            <b>Cuando</b> envía el formulario de registro </br>
+            <b>Entonces</b> el sistema muestra un mensaje de error indicando que el correo electrónico ya está registrado.
+        </td>
+    </tr>
+</table>
+
+<table align="center" border="1" width="90%" style="text-align:center;">
+    <tr align="left">
+        <td colspan=2>
+            <b>Épica</b>
+        </td>
+        <td colspan=2>
+            Acceso a Cuenta
+        </td>
+    </tr>
+    <tr align="left">
+        <td>
+            <b>ID-HU</b>
+        </td>
+        <td>
+            02
+        </td>
+        <td>
+            <b>Owner</b>
+        </td>
+        <td>
+            XXXX
+        </td>
+    </tr>
+    <tr align="left">
+        <td colspan=2>
+            <b>Título HU</b>
+        </td>
+        <td colspan=2>
+            Recuperación de Contraseña
+        </td>
+    </tr>
+    <tr align="left">
+        <td colspan=4>
+            <b>Descripción:</b></br>
+            <b>Como</b> usuario, <b>quiero</b> poder restablecer mi contraseña en caso de olvido.
+        </td>
+    </tr>
+    <tr align="left">
+        <td colspan=4>
+            <b>Criterio de Aceptación:</b></br>
+            <b>Scenario 01:</b> Recuperación exitosa</br>
+            <b>Dado</b> que el usuario ha olvidado su contraseña </br>
+            <b>Cuando</b> solicita restablecer su contraseña </br>
+            <b>Entonces</b> el sistema envía un correo electrónico con un enlace para restablecer la contraseña.
+            </br></br>
+            <b>Scenario 02:</b> Recuperación sin registro</br>
+            <b>Dado</b> que el usuario intenta recuperar una contraseña para un correo electrónico no registrado </br>
+            <b>Cuando</b> solicita restablecer su contraseña </br>
+            <b>Entonces</b> el sistema muestra un mensaje de error indicando que el correo electrónico no está asociado a ninguna cuenta.
+        </td>
+    </tr>
+</table>
+
+<table align="center" border="1" width="90%" style="text-align:center;">
+    <tr align="left">
+        <td colspan=2>
+            <b>Épica</b>
+        </td>
+        <td colspan=2>
+            Perfil de Usuario
+        </td>
+    </tr>
+    <tr align="left">
+        <td>
+            <b>ID-HU</b>
+        </td>
+        <td>
+            03
+        </td>
+        <td>
+            <b>Owner</b>
+        </td>
+        <td>
+            XXXX
+        </td>
+    </tr>
+    <tr align="left">
+        <td colspan=2>
+            <b>Título HU</b>
+        </td>
+        <td colspan=2>
+            Completar y actualizar perfil
+        </td>
+    </tr>
+    <tr align="left">
+        <td colspan=4>
+            <b>Descripción:</b></br>
+            <b>Como</b> usuario, <b>quiero</b> poder completar y actualizar mi perfil con detalles relevantes.
+        </td>
+    </tr>
+    <tr align="left">
+        <td colspan=4>
+            <b>Criterio de Aceptación:</b></br>
+            <b>Scenario 01:</b> Actualización exitosa</br>
+            <b>Dado</b> que el usuario modifica información en su perfil </br>
+            <b>Cuando</b> guarda los cambios </br>
+            <b>Entonces</b> el sistema actualiza el perfil del usuario correctamente.
+            </br></br>
+            <b>Scenario 02:</b> Acceso al perfil de otro usuario</br>
+            <b>Dado</b> que un usuario intenta acceder al perfil de otro usuario </br>
+            <b>Cuando</b> accede al enlace del perfil </br>
+            <b>Entonces</b> el sistema redirige al usuario a su propio perfil y muestra un mensaje de error indicando que no tiene permisos para ver el perfil de otro usuario.
+        </td>
+    </tr>
+</table>
+
+<table align="center" border="1" width="90%" style="text-align:center;">
+    <tr align="left">
+        <td colspan=2>
+            <b>Épica</b>
+        </td>
+        <td colspan=2>
+            Búsqueda Avanzada de Proyectos
+        </td>
+    </tr>
+    <tr align="left">
+        <td>
+            <b>ID-HU</b>
+        </td>
+        <td>
+            04
+        </td>
+        <td>
+            <b>Owner</b>
+        </td>
+        <td>
+            XXXX
+        </td>
+    </tr>
+    <tr align="left">
+        <td colspan=2>
+            <b>Título HU</b>
+        </td>
+        <td colspan=2>
+            Búsqueda avanzada de proyectos
+        </td>
+    </tr>
+    <tr align="left">
+        <td colspan=4>
+            <b>Descripción:</b></br>
+            <b>Como</b> empresa, <b>quiero</b> poder realizar búsquedas avanzadas para encontrar proyectos específicos.
+        </td>
+    </tr>
+    <tr align="left">
+        <td colspan=4>
+            <b>Criterio de Aceptación:</b></br>
+            <b>Scenario 01:</b> Búsqueda exitosa</br>
+            <b>Dado</b> que el usuario realiza una búsqueda avanzada con filtros específicos </br>
+            <b>Cuando</b> presiona el botón de búsqueda </br>
+            <b>Entonces</b> el sistema muestra resultados relevantes de acuerdo a los filtros aplicados.
+            </br></br>
+            <b>Scenario 02:</b> Búsqueda sin resultados</br>
+            <b>Dado</b> que el usuario realiza una búsqueda avanzada sin resultados </br>
+            <b>Cuando</b> presiona el botón de búsqueda </br>
+            <b>Entonces</b> el sistema muestra un mensaje indicando que no se encontraron proyectos con los criterios especificados.
+        </td>
+    </tr>
+</table>
+
+<table align="center" border="1" width="90%" style="text-align:center;">
+    <tr align="left">
+        <td colspan=2>
+            <b>Épica</b>
+        </td>
+        <td colspan=2>
+            Gestión de Proyectos Favoritos
+        </td>
+    </tr>
+    <tr align="left">
+        <td>
+            <b>ID-HU</b>
+        </td>
+        <td>
+            05
+        </td>
+        <td>
+            <b>Owner</b>
+        </td>
+        <td>
+            XXXX
+        </td>
+    </tr>
+    <tr align="left">
+        <td colspan=2>
+            <b>Título HU</b>
+        </td>
+        <td colspan=2>
+            Gestión de Proyectos Favoritos
+        </td>
+    </tr>
+    <tr align="left">
+        <td colspan=4>
+            <b>Descripción:</b></br>
+            <b>Como</b> usuario, <b>quiero</b> poder gestionar proyectos favoritos para acceder fácilmente a ellos en el futuro.
+        </td>
+    </tr>
+    <tr align="left">
+        <td colspan=4>
+            <b>Criterio de Aceptación:</b></br>
+            <b>Scenario 01:</b> Agregar proyecto a favoritos</br>
+            <b>Dado</b> que el usuario visualiza un proyecto de interés </br>
+            <b>Cuando</b> selecciona la opción de agregar a favoritos </br>
+            <b>Entonces</b> el sistema añade el proyecto a la lista de favoritos del usuario.
+            </br></br>
+            <b>Scenario 02:</b> Eliminar proyecto de favoritos</br>
+            <b>Dado</b> que el usuario visualiza un proyecto guardado en sus favoritos </br>
+            <b>Cuando</b> selecciona la opción de eliminar de favoritos </br>
+            <b>Entonces</b> el sistema remueve el proyecto de la lista de favoritos del usuario.
+        </td>
+    </tr>
+</table>
+
+<table align="center" border="1" width="90%" style="text-align:center;">
+    <tr align="left">
+        <td colspan=2>
+            <b>Épica</b>
+        </td>
+        <td colspan=2>
+            Gestión de Suscripciones
+        </td>
+    </tr>
+    <tr align="left">
+        <td>
+            <b>ID-HU</b>
+        </td>
+        <td>
+            06
+        </td>
+        <td>
+            <b>Owner</b>
+        </td>
+        <td>
+            XXXX
+        </td>
+    </tr>
+    <tr align="left">
+        <td colspan=2>
+            <b>Título HU</b>
+        </td>
+        <td colspan=2>
+            Gestión de Suscripciones
+        </td>
+    </tr>
+    <tr align="left">
+        <td colspan=4>
+            <b>Descripción:</b></br>
+            <b>Como</b> empresa, <b>quiero</b> poder gestionar mi suscripción para acceder a funcionalidades premium y administrar mi cuenta.
+        </td>
+    </tr>
+    <tr align="left">
+        <td colspan=4>
+            <b>Criterio de Aceptación:</b></br>
+            <b>Scenario 01:</b> Actualizar plan de suscripción</br>
+            <b>Dado</b> que la empresa de postes desea cambiar su plan de suscripción </br>
+            <b>Cuando</b> realiza el cambio de plan desde la configuración de la cuenta </br>
+            <b>Entonces</b> el sistema actualiza la suscripción de la empresa de acuerdo al nuevo plan seleccionado.
+            </br></br>
+            <b>Scenario 02:</b> Cancelar suscripción</br>
+            <b>Dado</b> que la empresa de postes desea cancelar su suscripción </br>
+            <b>Cuando</b> solicita la cancelación desde la configuración de la cuenta </br>
+            <b>Entonces</b> el sistema cancela la suscripción y elimina el acceso a las funcionalidades premium al finalizar el período de suscripción actual.
+        </td>
+    </tr>
+</table>
+
+<table align="center" border="1" width="90%" style="text-align:center;">
+    <tr align="left">
+        <td colspan=2>
+            <b>Épica</b>
+        </td>
+        <td colspan=2>
+            Filtrado de Resultados de Búsqueda
+        </td>
+    </tr>
+    <tr align="left">
+        <td>
+            <b>ID-HU</b>
+        </td>
+        <td>
+            07
+        </td>
+        <td>
+            <b>Owner</b>
+        </td>
+        <td>
+            XXXX
+        </td>
+    </tr>
+    <tr align="left">
+        <td colspan=2>
+            <b>Título HU</b>
+        </td>
+        <td colspan=2>
+            Filtrado de Resultados de Búsqueda
+        </td>
+    </tr>
+    <tr align="left">
+        <td colspan=4>
+            <b>Descripción:</b></br>
+            <b>Como</b> usuario, <b>quiero</b> poder filtrar los resultados de búsqueda para encontrar proyectos de manera más eficiente.
+        </td>
+    </tr>
+    <tr align="left">
+        <td colspan=4>
+            <b>Criterio de Aceptación:</b></br>
+            <b>Scenario 01:</b> Filtrado por ubicación</br>
+            <b>Dado</b> que el usuario realiza una búsqueda y filtra por ubicación </br>
+            <b>Cuando</b> selecciona una ubicación específica </br>
+            <b>Entonces</b> el sistema muestra solo los proyectos ubicados en esa área.
+            </br></br>
+            <b>Scenario 02:</b> Filtrado por fecha de inicio</br>
+            <b>Dado</b> que el usuario realiza una búsqueda y filtra por fecha de inicio </br>
+            <b>Cuando</b> selecciona un rango de fechas </br>
+            <b>Entonces</b> el sistema muestra solo los proyectos que comienzan dentro de ese rango.
+        </td>
+    </tr>
+</table>
+
+<table align="center" border="1" width="90%" style="text-align:center;">
+    <tr align="left">
+        <td colspan=2>
+            <b>Épica</b>
+        </td>
+        <td colspan=2>
+            Gestión de Proyectos Asignados
+        </td>
+    </tr>
+    <tr align="left">
+        <td>
+            <b>ID-HU</b>
+        </td>
+        <td>
+            08
+        </td>
+        <td>
+            <b>Owner</b>
+        </td>
+        <td>
+            XXXX
+        </td>
+    </tr>
+    <tr align="left">
+        <td colspan=2>
+            <b>Título HU</b>
+        </td>
+        <td colspan=2>
+            Gestión de Proyectos Asignados
+        </td>
+    </tr>
+    <tr align="left">
+        <td colspan=4>
+            <b>Descripción:</b></br>
+            <b>Como</b> empresa, <b>quiero</b> poder gestionar los proyectos asignados para organizar mi trabajo de manera eficiente.
+        </td>
+    </tr>
+    <tr align="left">
+        <td colspan=4>
+            <b>Criterio de Aceptación:</b></br>
+            <b>Scenario 01:</b> Visualización de proyectos asignados</br>
+            <b>Dado</b> que la empresa de postes accede al panel de gestión de proyectos </br>
+            <b>Cuando</b> visualiza la lista de proyectos asignados </br>
+            <b>Entonces</b> el sistema muestra una lista clara y detallada de los proyectos junto con su estado actual.
+            </br></br>
+            <b>Scenario 02:</b> Actualización del estado del proyecto</br>
+            <b>Dado</b> que la empresa de postes accede al panel de gestión de proyectos </br>
+            <b>Cuando</b> actualiza el estado de un proyecto </br>
+            <b>Entonces</b> el sistema guarda los cambios y actualiza el estado del proyecto en la base de datos.
+        </td>
+    </tr>
+</table>
+
+<table align="center" border="1" width="90%" style="text-align:center;">
+    <tr align="left">
+        <td colspan=2>
+            <b>Épica</b>
+        </td>
+        <td colspan=2>
+            Gestión de Información de Contacto
+        </td>
+    </tr>
+    <tr align="left">
+        <td>
+            <b>ID-HU</b>
+        </td>
+        <td>
+            09
+        </td>
+        <td>
+            <b>Owner</b>
+        </td>
+        <td>
+            Diego Castro
+        </td>
+    </tr>
+    <tr align="left">
+        <td colspan=2>
+            <b>Título HU</b>
+        </td>
+        <td colspan=2>
+            Gestión de Información de Contacto
+        </td>
+    </tr>
+    <tr align="left">
+        <td colspan=4>
+            <b>Descripción:</b></br>
+            <b>Como</b> usuario, <b>quiero</b> poder gestionar mi información de contacto para mantenerla actualizada.
+        </td>
+    </tr>
+    <tr align="left">
+        <td colspan=4>
+            <b>Criterio de Aceptación:</b></br>
+            <b>Scenario 01:</b> Actualización de información de contacto</br>
+            <b>Dado</b> que el usuario accede a la configuración de la cuenta </br>
+            <b>Cuando</b> actualiza su información de contacto </br>
+            <b>Entonces</b> el sistema guarda los cambios y actualiza la información en la base de datos.
+            </br></br>
+            <b>Scenario 02:</b> Eliminación de información de contacto</br>
+            <b>Dado</b> que el usuario accede a la configuración de la cuenta </br>
+            <b>Cuando</b> elimina su información de contacto </br>
+            <b>Entonces</b> el sistema borra la información de contacto de la base de datos.
+        </td>
+    </tr>
+</table>
+
+<table align="center" border="1" width="90%" style="text-align:center;">
+    <tr align="left">
+        <td colspan=2>
+            <b>Épica</b>
+        </td>
+        <td colspan=2>
+            Notificaciones de Nuevos Proyectos
+        </td>
+    </tr>
+    <tr align="left">
+        <td>
+            <b>ID-HU</b>
+        </td>
+        <td>
+            10
+        </td>
+        <td>
+            <b>Owner</b>
+        </td>
+        <td>
+            XXXX
+        </td>
+    </tr>
+    <tr align="left">
+        <td colspan=2>
+            <b>Título HU</b>
+        </td>
+        <td colspan=2>
+            Notificaciones de Nuevos Proyectos
+        </td>
+    </tr>
+    <tr align="left">
+        <td colspan=4>
+            <b>Descripción:</b></br>
+            <b>Como</b> usuario, <b>quiero</b> recibir notificaciones sobre nuevos proyectos que se ajusten a mis criterios de búsqueda.
+        </td>
+    </tr>
+    <tr align="left">
+        <td colspan=4>
+            <b>Criterio de Aceptación:</b></br>
+            <b>Scenario 01:</b> Recepción de notificación</br>
+            <b>Dado</b> que un nuevo proyecto que coincide con los criterios de búsqueda del usuario se publica </br>
+            <b>Cuando</b> el sistema detecta la coincidencia </br>
+            <b>Entonces</b> el sistema envía una notificación al usuario.
+            </br></br>
+            <b>Scenario 02:</b> Configuración de preferencias de notificación</br>
+            <b>Dado</b> que el usuario accede a la configuración de notificaciones </br>
+            <b>Cuando</b> configura sus preferencias de notificación para nuevos proyectos </br>
+            <b>Entonces</b> el sistema guarda las preferencias del usuario para futuras notificaciones.
+        </td>
+    </tr>
+</table>
+
+<table align="center" border="1" width="90%" style="text-align:center;">
+    <tr align="left">
+        <td colspan=2>
+            <b>Épica</b>
+        </td>
+        <td colspan=2>
+            Gestión de Comentarios en Proyectos
+        </td>
+    </tr>
+    <tr align="left">
+        <td>
+            <b>ID-HU</b>
+        </td>
+        <td>
+            11
+        </td>
+        <td>
+            <b>Owner</b>
+        </td>
+        <td>
+            XXXX
+        </td>
+    </tr>
+    <tr align="left">
+        <td colspan=2>
+            <b>Título HU</b>
+        </td>
+        <td colspan=2>
+            Gestión de Comentarios en Proyectos
+        </td>
+    </tr>
+    <tr align="left">
+        <td colspan=4>
+            <b>Descripción:</b></br>
+            <b>Como</b> usuario, <b>quiero</b> poder comentar en los proyectos para facilitar la comunicación y colaboración con otros usuarios.
+        </td>
+    </tr>
+    <tr align="left">
+        <td colspan=4>
+            <b>Criterio de Aceptación:</b></br>
+            <b>Scenario 01:</b> Creación de comentario</br>
+            <b>Dado</b> que el usuario accede a un proyecto </br>
+            <b>Cuando</b> escribe un comentario en el área de comentarios </br>
+            <b>Entonces</b> el sistema publica el comentario en el proyecto para que otros usuarios lo vean.
+            </br></br>
+            <b>Scenario 02:</b> Eliminación de comentario</br>
+            <b>Dado</b> que el usuario accede a un proyecto </br>
+            <b>Cuando</b> elimina un comentario que ha escrito previamente </br>
+            <b>Entonces</b> el sistema elimina el comentario del proyecto.
+        </td>
+    </tr>
+</table>
+
+<table align="center" border="1" width="90%" style="text-align:center;">
+    <tr align="left">
+        <td colspan=2>
+            <b>Épica</b>
+        </td>
+        <td colspan=2>
+            Integración con Plataformas de Pago
+        </td>
+    </tr>
+    <tr align="left">
+        <td>
+            <b>ID-HU</b>
+        </td>
+        <td>
+            12
+        </td>
+        <td>
+            <b>Owner</b>
+        </td>
+        <td>
+            XXXX
+        </td>
+    </tr>
+    <tr align="left">
+        <td colspan=2>
+            <b>Título HU</b>
+        </td>
+        <td colspan=2>
+            Integración con Plataformas de Pago
+        </td>
+    </tr>
+    <tr align="left">
+        <td colspan=4>
+            <b>Descripción:</b></br>
+            <b>Como</b> usuario, <b>quiero</b> poder realizar pagos de manera segura y conveniente a través de plataformas de pago reconocidas para renovar mi suscripción.
+        </td>
+    </tr>
+    <tr align="left">
+        <td colspan=4>
+            <b>Criterio de Aceptación:</b></br>
+            <b>Scenario 01:</b> Selección de método de pago</br>
+            <b>Dado</b> que el usuario accede a la página de renovación de suscripción </br>
+            <b>Cuando</b> selecciona la opción de pago </br>
+            <b>Entonces</b> el sistema muestra una lista de plataformas de pago disponibles.
+            </br></br>
+            <b>Scenario 02:</b> Proceso de pago exitoso</br>
+            <b>Dado</b> que el usuario elige un método de pago y proporciona la información requerida </br>
+            <b>Cuando</b> confirma el pago </br>
+            <b>Entonces</b> el sistema procesa el pago con éxito y renueva la suscripción del usuario.
+        </td>
+    </tr>
+</table>
+
+<table align="center" border="1" width="90%" style="text-align:center;">
+    <tr align="left">
+        <td colspan=2>
+            <b>Épica</b>
+        </td>
+        <td colspan=2>
+            Gestión de Suscripciones
+        </td>
+    </tr>
+    <tr align="left">
+        <td>
+            <b>ID-HU</b>
+        </td>
+        <td>
+            13
+        </td>
+        <td>
+            <b>Owner</b>
+        </td>
+        <td>
+            XXXX
+        </td>
+    </tr>
+    <tr align="left">
+        <td colspan=2>
+            <b>Título HU</b>
+        </td>
+        <td colspan=2>
+            Gestión de Suscripciones
+        </td>
+    </tr>
+    <tr align="left">
+        <td colspan=4>
+            <b>Descripción:</b></br>
+            <b>Como</b> usuario, <b>quiero</b> poder gestionar mi suscripción (por ejemplo, cambiar de plan, cancelar suscripción) para ajustarla a mis necesidades y preferencias.
+        </td>
+    </tr>
+    <tr align="left">
+        <td colspan=4>
+            <b>Criterio de Aceptación:</b></br>
+            <b>Scenario 01:</b> Cambio de plan de suscripción</br>
+            <b>Dado</b> que el usuario accede a la configuración de su cuenta </br>
+            <b>Cuando</b> selecciona la opción de cambiar de plan </br>
+            <b>Entonces</b> el sistema permite al usuario seleccionar un nuevo plan de suscripción y actualiza su suscripción.
+            </br></br>
+            <b>Scenario 02:</b> Cancelación de suscripción</br>
+            <b>Dado</b> que el usuario accede a la configuración de su cuenta </br>
+            <b>Cuando</b> selecciona la opción de cancelar la suscripción </br>
+            <b>Entonces</b> el sistema cancela la suscripción del usuario y finaliza su acceso a los servicios de la plataforma.
+        </td>
+    </tr>
+</table>
+
+<table align="center" border="1" width="90%" style="text-align:center;">
+    <tr align="left">
+        <td colspan=2>
+            <b>Épica</b>
+        </td>
+        <td colspan=2>
+            Soporte Técnico en Línea
+        </td>
+    </tr>
+    <tr align="left">
+        <td>
+            <b>ID-HU</b>
+        </td>
+        <td>
+            14
+        </td>
+        <td>
+            <b>Owner</b>
+        </td>
+        <td>
+            XXXX
+        </td>
+    </tr>
+    <tr align="left">
+        <td colspan=2>
+            <b>Título HU</b>
+        </td>
+        <td colspan=2>
+            Soporte Técnico en Línea
+        </td>
+    </tr>
+    <tr align="left">
+        <td colspan=4>
+            <b>Descripción:</b></br>
+            <b>Como</b> usuario, <b>quiero</b> poder acceder a un servicio de soporte técnico en línea para resolver problemas y recibir asistencia rápida y eficiente.
+        </td>
+    </tr>
+    <tr align="left">
+        <td colspan=4>
+            <b>Criterio de Aceptación:</b></br>
+            <b>Scenario 01:</b> Acceso al soporte técnico</br>
+            <b>Dado</b> que el usuario necesita asistencia técnica </br>
+            <b>Cuando</b> accede al servicio de soporte técnico en línea (por ejemplo, chat en vivo, sistema de tickets) </br>
+            <b>Entonces</b> el sistema le permite al usuario comunicarse con un representante de soporte.
+            </br></br>
+            <b>Scenario 02:</b> Resolución de problemas</br>
+            <b>Dado</b> que el usuario plantea un problema al representante de soporte </br>
+            <b>Cuando</b> el representante diagnostica y resuelve el problema de manera eficiente </br>
+            <b>Entonces</b> el usuario queda satisfecho con la asistencia recibida.
+        </td>
+    </tr>
+</table>
+
+<table align="center" border="1" width="90%" style="text-align:center;">
+    <tr align="left">
+        <td colspan=2>
+            <b>Épica</b>
+        </td>
+        <td colspan=2>
+            Creación de Perfil de Empresa
+        </td>
+    </tr>
+    <tr align="left">
+        <td>
+            <b>ID-HU</b>
+        </td>
+        <td>
+            15
+        </td>
+        <td>
+            <b>Owner</b>
+        </td>
+        <td>
+            XXXX
+        </td>
+    </tr>
+    <tr align="left">
+        <td colspan=2>
+            <b>Título HU</b>
+        </td>
+        <td colspan=2>
+            Creación de Perfil de Empresa
+        </td>
+    </tr>
+    <tr align="left">
+        <td colspan=4>
+            <b>Descripción:</b></br>
+            <b>Como</b> empresa, <b>quiero</b> poder crear un perfil de empresa en la plataforma para aumentar la visibilidad de mis servicios y captar clientes potenciales.
+        </td>
+    </tr>
+    <tr align="left">
+        <td colspan=4>
+            <b>Criterio de Aceptación:</b></br>
+            <b>Scenario 01:</b> Registro de perfil de empresa</br>
+            <b>Dado</b> que el representante de la empresa accede a la plataforma </br>
+            <b>Cuando</b> completa el formulario de registro de empresa con información relevante (por ejemplo, nombre de la empresa, servicios ofrecidos, ubicación) </br>
+            <b>Entonces</b> el sistema crea un perfil de empresa verificado y lo muestra en la plataforma.
+            </br></br>
+            <b>Scenario 02:</b> Edición de perfil de empresa</br>
+            <b>Dado</b> que el representante de la empresa accede a la configuración del perfil </br>
+            <b>Cuando</b> realiza cambios en la información del perfil (por ejemplo, actualiza la descripción de la empresa, añade imágenes) </br>
+            <b>Entonces</b> el sistema guarda los cambios y actualiza el perfil de la empresa en la plataforma.
+        </td>
+    </tr>
+</table>
+
+<table align="center" border="1" width="90%" style="text-align:center;">
+    <tr align="left">
+        <td colspan=2>
+            <b>Épica</b>
+        </td>
+        <td colspan=2>
+            Publicación de Ofertas de Trabajo
+        </td>
+    </tr>
+    <tr align="left">
+        <td>
+            <b>ID-HU</b>
+        </td>
+        <td>
+            16
+        </td>
+        <td>
+            <b>Owner</b>
+        </td>
+        <td>
+            XXXX
+        </td>
+    </tr>
+    <tr align="left">
+        <td colspan=2>
+            <b>Título HU</b>
+        </td>
+        <td colspan=2>
+            Publicación de Ofertas de Trabajo
+        </td>
+    </tr>
+    <tr align="left">
+        <td colspan=4>
+            <b>Descripción:</b></br>
+            <b>Como</b> empresa, <b>quiero</b> poder publicar ofertas de trabajo en la plataforma para contratar personal especializado y completar proyectos de instalación de fibra óptica.
+        </td>
+    </tr>
+    <tr align="left">
+        <td colspan=4>
+            <b>Criterio de Aceptación:</b></br>
+            <b>Scenario 01:</b> Creación de oferta de trabajo</br>
+            <b>Dado</b> que el representante de la empresa accede al panel de publicación de ofertas </br>
+            <b>Cuando</b> completa el formulario de creación de oferta con detalles del trabajo (por ejemplo, posición, requisitos, ubicación) </br>
+            <b>Entonces</b> el sistema publica la oferta en la plataforma para que los usuarios interesados puedan aplicar.
+            </br></br>
+            <b>Scenario 02:</b> Gestión de candidatos</br>
+            <b>Dado</b> que la empresa recibe solicitudes de empleo para una oferta publicada </br>
+            <b>Cuando</b> revisa las aplicaciones y realiza el proceso de selección </br>
+            <b>Entonces</b> el sistema registra el estado de cada candidato (por ejemplo, en revisión, entrevistado, contratado) para llevar un seguimiento de las contrataciones.
+        </td>
+    </tr>
+</table>
+
+<table align="center" border="1" width="90%" style="text-align:center;">
+    <tr align="left">
+        <td colspan=2>
+            <b>Épica</b>
+        </td>
+        <td colspan=2>
+            Gestión de Solicitudes de Cotización
+        </td>
+    </tr>
+    <tr align="left">
+        <td>
+            <b>ID-HU</b>
+        </td>
+        <td>
+            17
+        </td>
+        <td>
+            <b>Owner</b>
+        </td>
+        <td>
+            XXXX
+        </td>
+    </tr>
+    <tr align="left">
+        <td colspan=2>
+            <b>Título HU</b>
+        </td>
+        <td colspan=2>
+            Gestión de Solicitudes de Cotización
+        </td>
+    </tr>
+    <tr align="left">
+        <td colspan=4>
+            <b>Descripción:</b></br>
+            <b>Como</b> empresa, <b>quiero</b> poder gestionar solicitudes de cotización de empresas de telecomunicaciones interesadas en mis servicios para proporcionar presupuestos precisos y competitivos.
+        </td>
+    </tr>
+    <tr align="left">
+        <td colspan=4>
+            <b>Criterio de Aceptación:</b></br>
+            <b>Scenario 01:</b> Recepción de solicitudes de cotización</br>
+            <b>Dado</b> que la empresa de postes está registrada en la plataforma </br>
+            <b>Cuando</b> recibe solicitudes de cotización de empresas de telecomunicaciones interesadas en sus servicios </br>
+            <b>Entonces</b> el sistema notifica a la empresa y registra los detalles de la solicitud.
+            </br></br>
+            <b>Scenario 02:</b> Preparación y envío de cotizaciones</br>
+            <b>Dado</b> que la empresa revisa una solicitud de cotización </br>
+            <b>Cuando</b> prepara un presupuesto detallado y competitivo </br>
+            <b>Entonces</b> el sistema permite enviar la cotización a la empresa solicitante y registra el estado de la solicitud.
+        </td>
+    </tr>
+</table>
+
+<table align="center" border="1" width="90%" style="text-align:center;">
+    <tr align="left">
+        <td colspan=2>
+            <b>Épica</b>
+        </td>
+        <td colspan=2>
+            Gestión de Facturación y Pagos
+        </td>
+    </tr>
+    <tr align="left">
+        <td>
+            <b>ID-HU</b>
+        </td>
+        <td>
+            18
+        </td>
+        <td>
+            <b>Owner</b>
+        </td>
+        <td>
+            XXXX
+        </td>
+    </tr>
+    <tr align="left">
+        <td colspan=2>
+            <b>Título HU</b>
+        </td>
+        <td colspan=2>
+            Gestión de Facturación y Pagos
+        </td>
+    </tr>
+    <tr align="left">
+        <td colspan=4>
+            <b>Descripción:</b></br>
+            <b>Como</b> empresa, <b>quiero</b> poder gestionar la facturación y los pagos de los servicios proporcionados a las empresas de telecomunicaciones para garantizar una transacción financiera fluida y transparente.
+        </td>
+    </tr>
+    <tr align="left">
+        <td colspan=4>
+            <b>Criterio de Aceptación:</b></br>
+            <b>Scenario 01:</b> Generación de facturas</br>
+            <b>Dado</b> que la empresa de postes completa un proyecto para una empresa de telecomunicaciones </br>
+            <b>Cuando</b> genera una factura detallada por los servicios proporcionados </br>
+            <b>Entonces</b> el sistema crea y envía la factura al cliente.
+            </br></br>
+            <b>Scenario 02:</b> Registro de pagos</br>
+            <b>Dado</b> que la empresa recibe un pago por parte de una empresa de telecomunicaciones </br>
+            <b>Cuando</b> registra el pago en el sistema y marca la factura como pagada </br>
+            <b>Entonces</b> el sistema actualiza el estado de la factura y mantiene un registro claro de los pagos recibidos.
+        </td>
+    </tr>
+</table>
+
+<table align="center" border="1" width="90%" style="text-align:center;">
+    <tr align="left">
+        <td colspan=2>
+            <b>Épica</b>
+        </td>
+        <td colspan=2>
+            Gestión de Calificaciones y Reseñas de Clientes
+        </td>
+    </tr>
+    <tr align="left">
+        <td>
+            <b>ID-HU</b>
+        </td>
+        <td>
+            19
+        </td>
+        <td>
+            <b>Owner</b>
+        </td>
+        <td>
+            XXXX
+        </td>
+    </tr>
+    <tr align="left">
+        <td colspan=2>
+            <b>Título HU</b>
+        </td>
+        <td colspan=2>
+            Gestión de Calificaciones y Reseñas de Clientes
+        </td>
+    </tr>
+    <tr align="left">
+        <td colspan=4>
+            <b>Descripción:</b></br>
+            <b>Como</b> empresa, <b>quiero</b> poder gestionar las calificaciones y reseñas de los clientes para mantener una reputación positiva y mejorar continuamente la calidad de los servicios ofrecidos.
+        </td>
+    </tr>
+    <tr align="left">
+        <td colspan=4>
+            <b>Criterio de Aceptación:</b></br>
+            <b>Scenario 01:</b> Visualización de calificaciones y reseñas</br>
+            <b>Dado</b> que la empresa de postes accede al panel de gestión de calificaciones </br>
+            <b>Cuando</b> visualiza las calificaciones y reseñas proporcionadas por los clientes </br>
+            <b>Entonces</b> el sistema muestra una lista clara y detallada con la información correspondiente.
+            </br></br>
+            <b>Scenario 02:</b> Respuesta a reseñas</br>
+            <b>Dado</b> que la empresa lee una reseña proporcionada por un cliente </br>
+            <b>Cuando</b> responde a la reseña para abordar cualquier inquietud o comentario </br>
+            <b>Entonces</b> el sistema publica la respuesta y permite una comunicación transparente con los clientes.
+        </td>
+    </tr>
+</table>
+
+<table align="center" border="1" width="90%" style="text-align:center;">
+    <tr align="left">
+        <td colspan=2>
+            <b>Épica</b>
+        </td>
+        <td colspan=2>
+            Programación de Inspecciones de Sitio
+        </td>
+    </tr>
+    <tr align="left">
+        <td>
+            <b>ID-HU</b>
+        </td>
+        <td>
+            20
+        </td>
+        <td>
+            <b>Owner</b>
+        </td>
+        <td>
+            XXXX
+        </td>
+    </tr>
+    <tr align="left">
+        <td colspan=2>
+            <b>Título HU</b>
+        </td>
+        <td colspan=2>
+            Programación de Inspecciones de Sitio
+        </td>
+    </tr>
+    <tr align="left">
+        <td colspan=4>
+            <b>Descripción:</b></br>
+            <b>Como</b> empresa, <b>quiero</b> poder programar inspecciones de sitio para evaluar la viabilidad y preparar el terreno antes de la instalación de los postes de fibra óptica.
+        </td>
+    </tr>
+    <tr align="left">
+        <td colspan=4>
+            <b>Criterio de Aceptación:</b></br>
+            <b>Scenario 01:</b> Programación de inspección</br>
+            <b>Dado</b> que la empresa de postes accede al calendario de programación </br>
+            <b>Cuando</b> selecciona una fecha y hora convenientes para la inspección de sitio </br>
+            <b>Entonces</b> el sistema registra la programación y notifica a los involucrados.
+            </br></br>
+            <b>Scenario 02:</b> Confirmación de inspección</br>
+            <b>Dado</b> que la empresa confirma la programación de la inspección </br>
+            <b>Cuando</b> recibe la confirmación del cliente y se prepara para la inspección </br>
+            <b>Entonces</b> el sistema registra la confirmación y facilita la coordinación logística.
+        </td>
+    </tr>
+</table>
+
+<table align="center" border="1" width="90%" style="text-align:center;">
+    <tr align="left">
+        <td colspan=2>
+            <b>Épica</b>
+        </td>
+        <td colspan=2>
+            Notificaciones de Actualización de Proyectos
+        </td>
+    </tr>
+    <tr align="left">
+        <td>
+            <b>ID-HU</b>
+        </td>
+        <td>
+            21
+        </td>
+        <td>
+            <b>Owner</b>
+        </td>
+        <td>
+            XXXX
+        </td>
+    </tr>
+    <tr align="left">
+        <td colspan=2>
+            <b>Título HU</b>
+        </td>
+        <td colspan=2>
+            Notificaciones de Actualización de Proyectos
+        </td>
+    </tr>
+    <tr align="left">
+        <td colspan=4>
+            <b>Descripción:</b></br>
+            <b>Como</b> empresa, <b>quiero</b> recibir notificaciones automáticas sobre las actualizaciones de los proyectos de instalación de fibra óptica para mantenerme informado sobre el progreso.
+        </td>
+    </tr>
+    <tr align="left">
+        <td colspan=4>
+            <b>Criterio de Aceptación:</b></br>
+            <b>Scenario 01:</b> Notificación de hitos del proyecto</br>
+            <b>Dado</b> que la empresa de telecomunicaciones está suscrita a un proyecto específico </br>
+            <b>Cuando</b> se alcanza un hito importante en el proyecto (por ejemplo, inicio de la instalación, finalización de la instalación) </br>
+            <b>Entonces</b> el sistema envía una notificación automatizada con detalles sobre el hito alcanzado.
+            </br></br>
+            <b>Scenario 02:</b> Notificación de cambios en el cronograma</br>
+            <b>Dado</b> que se realizan cambios en el cronograma del proyecto </br>
+            <b>Cuando</b> se actualiza el cronograma para reflejar los cambios </br>
+            <b>Entonces</b> el sistema envía una notificación a las partes interesadas para informarles sobre los ajustes en el plan.
+        </td>
+    </tr>
+</table>
+
 ## 3.3. Impact Mapping
 ## 3.4. Product Backlog
 
