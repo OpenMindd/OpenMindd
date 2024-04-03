@@ -1501,6 +1501,141 @@ Uno de los principales motivos de este problema es la ausencia de una pagina web
 ## 3.3. Impact Mapping
 ## 3.4. Product Backlog
 
+<table align="center" border="1" width="100%" style="text-align:center;">
+    <tr>
+        <th>Orden</th>
+        <th>ID</th>
+        <th>User Story</th>
+        <th>Story Points</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>HU08</td>
+        <td>Gestión de Proyectos Asignados, Como empresa, quiero poder gestionar los proyectos asignados para organizar mi trabajo de manera eficiente.</td>
+        <td>13</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>HU14</td>
+        <td>Soporte Técnico en Línea, Como usuario, quiero poder acceder a un servicio de soporte técnico en línea para resolver problemas y recibir asistencia rápida y eficiente.</td>
+        <td>13</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>HU17</td>
+        <td>Gestión de Solicitudes de Cotización, Como empresa, quiero poder gestionar solicitudes de cotización de empresas de telecomunicaciones interesadas en mis servicios para proporcionar presupuestos precisos y competitivos.</td>
+        <td>13</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>HU18</td>
+        <td>Gestión de Facturación y Pagos, Como empresa, quiero poder gestionar la facturación y los pagos de los servicios proporcionados a las empresas de telecomunicaciones para garantizar una transacción financiera fluida y transparente.</td>
+        <td>13</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>HU19</td>
+        <td>Gestión de Calificaciones y Reseñas de Clientes, Como empresa, quiero poder gestionar las calificaciones y reseñas de los clientes para mantener una reputación positiva y mejorar continuamente la calidad de los servicios ofrecidos.</td>
+        <td>13</td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>HU20</td>
+        <td>Programción de Inspecciones de Sitio, Como empresa, quiero poder programar inspecciones de sitio para evaluar la viabilidad y preparar el terreno antes de la instalación de los postes de fibra óptica.</td>
+        <td>13</td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td>HU21</td>
+        <td>Notificaciones de Actualización de Proyectos, Como empresa, quiero recibir notificaciones automáticas sobre las actualizaciones de los proyectos de instalación de fibra óptica para mantenerme informado sobre el progreso.</td>
+        <td>13</td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td>HU03</td>
+        <td>Completar y actualizar perfil, Como usuario, quiero poder completar y actualizar mi perfil con detalles relevantes.</td>
+        <td>8</td>
+    </tr>
+    <tr>
+        <td>9</td>
+        <td>HU05</td>
+        <td>Gestión de Proyectos Favoritos, Como usuario, quiero poder gestionar proyectos favoritos para acceder fácilmente a ellos en el futuro.</td>
+        <td>8</td>
+    </tr>
+    <tr>
+        <td>10</td>
+        <td>HU06</td>
+        <td>Gestión de Suscripciones, Como empresa, quiero poder gestionar mi suscripción para acceder a funcionalidades premium y administrar mi cuenta.</td>
+        <td>8</td>
+    </tr>
+    <tr>
+        <td>11</td>
+        <td>HU11</td>
+        <td>Gestión de Comentarios en Proyectos, Como usuario, quiero poder comentar en los proyectos para facilitar la comunicación y colaboración con otros usuarios.</td>
+        <td>8</td>
+    </tr>
+    <tr>
+        <td>12</td>
+        <td>HU12</td>
+        <td>Integración con Plataformas de Pago, Como usuario, quiero poder realizar pagos de manera segura y conveniente a través de plataformas de pago reconocidas para renovar mi suscripción.</td>
+        <td>8</td>
+    </tr>
+    <tr>
+        <td>13</td>
+        <td>HU13</td>
+        <td>Gestión de Suscripciones, Como usuario, quiero poder gestionar mi suscripción (por ejemplo, cambiar de plan, cancelar suscripción) para ajustarla a mis necesidades y preferencias.</td>
+        <td>8</td>
+    </tr>
+    <tr>
+        <td>14</td>
+        <td>HU15</td>
+        <td>Creación de Perfil de Empresa, Como empresa, quiero poder crear un perfil de empresa en la plataforma para aumentar la visibilidad de mis servicios y captar clientes potenciales.</td>
+        <td>8</td>
+    </tr>
+    <tr>
+        <td>15</td>
+        <td>HU16</td>
+        <td>Publicación de Ofertas de Trabajo, Como empresa, quiero poder publicar ofertas de trabajo en la plataforma para contratar personal especializado y completar proyectos de instalación de fibra óptica.</td>
+        <td>8</td>
+    </tr>
+    <tr>
+        <td>16</td>
+        <td>HU04</td>
+        <td>Búsqueda avanzada de proyectos, Como empresa, quiero poder realizar búsquedas avanzadas para encontrar proyectos específicos.</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>17</td>
+        <td>HU07</td>
+        <td>Filtrado de Resultados de Búsquedas, Como usuario, quiero poder filtrar los resultados de búsqueda para encontrar proyectos de manera más eficiente.</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>18</td>
+        <td>HU10</td>
+        <td>Notificaciones de Nuevos Proyectos, Como usuario, quiero recibir notificaciones sobre nuevos proyectos que se ajusten a mis criterios de búsqueda.</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>19</td>
+        <td>HU09</td>
+        <td>Gestión de Información de Contacto, Como usuario, quiero poder gestionar mi información de contacto para mantenerla actualizada.</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td>20</td>
+        <td>HU02</td>
+        <td>Recuperación de Contraseña, Como usuario, quiero poder restablecer mi contraseña en caso de olvido.</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td>21</td>
+        <td>HU01</td>
+        <td>Registro de Usuario, Como usuario, quiero poder registrarme en la plataforma para acceder a sus servicios.</td>
+        <td>3</td>
+    </tr>
+</table>
+
 # Capítulo IV: Product Design
 ## 4.1. Style Guidelines
 ### 4.1.1. General Style Guidelines
