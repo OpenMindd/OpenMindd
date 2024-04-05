@@ -829,7 +829,7 @@ Uno de los principales motivos de este problema es la ausencia de una pagina web
             <b>Owner</b>
         </td>
         <td>
-            Diego Castro
+            XXXX
         </td>
     </tr>
     <tr align="left">
